@@ -32,18 +32,22 @@ Fingerprint:fc6f4a21
 
 | candidate | annual cost |
 |---|---|
-| A, k=3 | |
-| A, k=5 | |
-| B, k=3 | |
-| B, k=5 | |
+| A, k=3 | 7799.60 |
+| A, k=5 | 10137.99 |
+| B, k=3 | 5418.76 |
+| B, k=5 | 6169.93 |
 
 ### 1d. Decision (at most 150 words)
 
-Chosen candidate:
+Chosen candidate: A, k=3
+
+I choose A with k=3. A with k=5 has the best recall, but it costs about 10,138 USD per year, and the budget is only 9,000 USD, so I can not take it. A, k=3 costs 7,800 USD and has recall 0.75 (CI 0.63-0.84). Both B options are cheaper, but their recall is much lower: B, k=5 is 0.50 (0.38-0.62) and B, k=3 is 0.42 (0.30-0.54). These intervals do not overlap with A, k=3, so A, k=3 is really better. A, k=3 and A, k=5 overlap, so we can not say k=5 is better anyway. By language A, k=3 gives EN 0.85, RU 0.75 and KK 0.65. Kazakh users get the worst results, but we have only 20 questions per language and the intervals overlap, so this difference is not proven yet.
 
 (Decision, using your intervals and the budget. Give the recall of your choice for EN, RU and KK separately.)
 
 ### 1e. Next measurement (at most 60 words)
+
+I would test A with k=3 and k=4 on a bigger set, for example 200 Kazakh questions and 200 English ones. k=4 should cost about 8,969 USD, so it is still in the budget. More questions would make the KK interval smaller and show if k=4 helps Kazakh users.
 
 ## Part 2: A document pipeline you can defend
 
