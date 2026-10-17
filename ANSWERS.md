@@ -55,10 +55,10 @@ I would test A with k=3 and k=4 on a bigger set, for example 200 Kazakh question
 
 | pipeline | overall accuracy | weakest cell (language, condition) | accuracy there | lower | upper | annual cost |
 |---|---|---|---|---|---|---|
-| H | | | | | | |
-| L | | | | | | |
+| H | 0.8889 | KK, clean | 0.7000 | 0.5212 | 0.8333 | 24352.80 |
+| L | 0.8111 | KK, degraded | 0.7000 | 0.5212 | 0.8333 | 5400 |
 
-Personal-data pages per year sent abroad under H:
+Personal-data pages per year sent abroad under H:233600
 
 ### 2b. Memo (at most 300 words)
 
