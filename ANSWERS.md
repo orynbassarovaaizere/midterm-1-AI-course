@@ -1,7 +1,9 @@
 # Midterm 1: answers
 
 GitHub username:orynbassarovaaizere
+
 Session code:EMBER-92
+
 Fingerprint:fc6f4a21
 
 > Fill in the three lines above from `my_data/DATA.md`. Do not rename headings or table columns: a script reads the numbers.
@@ -14,7 +16,7 @@ I used Claude (Anthropic) and Google Colab during this exam.
 Claude explained the task to me in Russian and helped me set up Colab. It gave me Python code for the metrics, Wilson intervals and costs. I ran the code in Colab on my own data and checked the results. Claude also helped me with the calculations for Part 3. I asked for explanations, so I understand every number and decision.
 
 No other person helped me. I can explain all my answers. 
-(About half a page: which assistants or tools you used and for what. If you used none, say so.)
+
 
 ## Part 1: Retrieval and cost decision
 
@@ -48,7 +50,6 @@ Chosen candidate: A, k=3
 
 I choose A with k=3. A with k=5 has the best recall, but it costs about 10,138 USD per year, and the budget is only 9,000 USD, so I can not take it. A, k=3 costs 7,800 USD and has recall 0.75 (CI 0.63-0.84). Both B options are cheaper, but their recall is much lower: B, k=5 is 0.50 (0.38-0.62) and B, k=3 is 0.42 (0.30-0.54). These intervals do not overlap with A, k=3, so A, k=3 is really better. A, k=3 and A, k=5 overlap, so we can not say k=5 is better anyway. By language A, k=3 gives EN 0.85, RU 0.75 and KK 0.65. Kazakh users get the worst results, but we have only 20 questions per language and the intervals overlap, so this difference is not proven yet.
 
-(Decision, using your intervals and the budget. Give the recall of your choice for EN, RU and KK separately.)
 
 ### 1e. Next measurement (at most 60 words)
 
