@@ -17,9 +17,8 @@ Fingerprint:fc6f4a21
 
 | config | recall@1 | recall@3 | recall@5 | MRR@10 |
 |---|---|---|---|---|
-| A | | | | |
-| B | | | | |
-
+| A | 0.5333 | 0.7500 | 0.8167 | 0.6496 |
+| B | 0.2500 | 0.4167 | 0.5000 | 0.3576 |
 ### 1b. Recall and 95 % Wilson interval of each candidate (recall at its own k)
 
 | candidate | recall@k | lower | upper |
